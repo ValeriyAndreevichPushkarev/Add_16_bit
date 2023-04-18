@@ -1,4 +1,4 @@
-# Presentation based ob my repos (https://github.com/ValeryAndreevichPushkarev)
+Presentation based on my repos (https://github.com/ValeryAndreevichPushkarev)
 
 ### Structure
 
