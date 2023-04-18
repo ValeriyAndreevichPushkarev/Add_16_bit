@@ -1,0 +1,36 @@
+
+68. Executing CHECK pass (checking for obvious problems).
+Checking module add_test_4...
+Warning: Wire add_test_4.\res_r [31] is used but has no driver.
+Warning: Wire add_test_4.\res_r [30] is used but has no driver.
+Warning: Wire add_test_4.\res_r [29] is used but has no driver.
+Warning: Wire add_test_4.\res_r [28] is used but has no driver.
+Warning: Wire add_test_4.\res_r [27] is used but has no driver.
+Warning: Wire add_test_4.\res_r [26] is used but has no driver.
+Warning: Wire add_test_4.\res_r [25] is used but has no driver.
+Warning: Wire add_test_4.\res_r [24] is used but has no driver.
+Warning: Wire add_test_4.\res_r [23] is used but has no driver.
+Warning: Wire add_test_4.\res_r [22] is used but has no driver.
+Warning: Wire add_test_4.\res_r [21] is used but has no driver.
+Warning: Wire add_test_4.\res_r [20] is used but has no driver.
+Warning: Wire add_test_4.\res_r [19] is used but has no driver.
+Warning: Wire add_test_4.\res_r [18] is used but has no driver.
+Warning: Wire add_test_4.\res_r [17] is used but has no driver.
+Warning: Wire add_test_4.\res_r [16] is used but has no driver.
+Warning: Wire add_test_4.\res_r [15] is used but has no driver.
+Warning: Wire add_test_4.\res_r [14] is used but has no driver.
+Warning: Wire add_test_4.\res_r [13] is used but has no driver.
+Warning: Wire add_test_4.\res_r [12] is used but has no driver.
+Warning: Wire add_test_4.\res_r [11] is used but has no driver.
+Warning: Wire add_test_4.\res_r [10] is used but has no driver.
+Warning: Wire add_test_4.\res_r [9] is used but has no driver.
+Warning: Wire add_test_4.\res_r [8] is used but has no driver.
+Warning: Wire add_test_4.\res_r [7] is used but has no driver.
+Warning: Wire add_test_4.\res_r [6] is used but has no driver.
+Warning: Wire add_test_4.\res_r [5] is used but has no driver.
+Warning: Wire add_test_4.\res_r [4] is used but has no driver.
+Warning: Wire add_test_4.\res_r [3] is used but has no driver.
+Warning: Wire add_test_4.\res_r [2] is used but has no driver.
+Warning: Wire add_test_4.\res_r [1] is used but has no driver.
+Warning: Wire add_test_4.\res_r [0] is used but has no driver.
+Found and reported 32 problems.

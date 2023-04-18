@@ -1,0 +1,20 @@
+
+113. Executing CHECK pass (checking for obvious problems).
+Checking module add_test_3...
+Warning: Wire add_test_3.\res_r [15] is used but has no driver.
+Warning: Wire add_test_3.\res_r [14] is used but has no driver.
+Warning: Wire add_test_3.\res_r [13] is used but has no driver.
+Warning: Wire add_test_3.\res_r [12] is used but has no driver.
+Warning: Wire add_test_3.\res_r [11] is used but has no driver.
+Warning: Wire add_test_3.\res_r [10] is used but has no driver.
+Warning: Wire add_test_3.\res_r [9] is used but has no driver.
+Warning: Wire add_test_3.\res_r [8] is used but has no driver.
+Warning: Wire add_test_3.\res_r [7] is used but has no driver.
+Warning: Wire add_test_3.\res_r [6] is used but has no driver.
+Warning: Wire add_test_3.\res_r [5] is used but has no driver.
+Warning: Wire add_test_3.\res_r [4] is used but has no driver.
+Warning: Wire add_test_3.\res_r [3] is used but has no driver.
+Warning: Wire add_test_3.\res_r [2] is used but has no driver.
+Warning: Wire add_test_3.\res_r [1] is used but has no driver.
+Warning: Wire add_test_3.\res_r [0] is used but has no driver.
+Found and reported 16 problems.

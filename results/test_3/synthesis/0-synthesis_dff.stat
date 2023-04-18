@@ -1,0 +1,22 @@
+
+52. Printing statistics.
+
+=== add_test_3 ===
+
+   Number of wires:                399
+   Number of wire bits:            459
+   Number of public wires:           5
+   Number of public wire bits:      65
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                426
+     $_ANDNOT_                     113
+     $_AND_                         61
+     $_MUX_                         27
+     $_NAND_                         2
+     $_NOR_                         32
+     $_ORNOT_                       10
+     $_OR_                         165
+     sky130_fd_sc_hd__dfxtp_2       16
+

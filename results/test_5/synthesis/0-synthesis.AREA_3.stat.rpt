@@ -1,0 +1,32 @@
+
+132. Printing statistics.
+
+=== add_test_5 ===
+
+   Number of wires:                140
+   Number of wire bits:            185
+   Number of public wires:          20
+   Number of public wire bits:      65
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                152
+     sky130_fd_sc_hd__a21o_2         2
+     sky130_fd_sc_hd__a2bb2o_2       1
+     sky130_fd_sc_hd__a31o_2         2
+     sky130_fd_sc_hd__dfxtp_2       16
+     sky130_fd_sc_hd__inv_2         16
+     sky130_fd_sc_hd__inv_4          1
+     sky130_fd_sc_hd__nand2_2       38
+     sky130_fd_sc_hd__nand2_4        8
+     sky130_fd_sc_hd__nand3_2       24
+     sky130_fd_sc_hd__nand3_4       16
+     sky130_fd_sc_hd__nor2_2        15
+     sky130_fd_sc_hd__nor2_4         1
+     sky130_fd_sc_hd__xnor2_2        2
+     sky130_fd_sc_hd__xnor2_4        1
+     sky130_fd_sc_hd__xor2_2         8
+     sky130_fd_sc_hd__xor2_4         1
+
+   Chip area for module '\add_test_5': 1624.057600
+
