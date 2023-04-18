@@ -1,0 +1,20 @@
+
+46. Printing statistics.
+
+=== add_test_5 ===
+
+   Number of wires:                 93
+   Number of wire bits:            183
+   Number of public wires:          20
+   Number of public wire bits:     110
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                105
+     $_DFF_P_                       16
+     $_MUX_                         29
+     $_NAND_                        15
+     $_NOR_                         14
+     $_XNOR_                        15
+     $_XOR_                         16
+
