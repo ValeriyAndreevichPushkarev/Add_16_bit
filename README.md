@@ -38,15 +38,22 @@ results - synthesis results for all types of projects
 		Delay =  2081.29 ps  ( 35.3 %)     
 		5)ABC: netlist                       : i/o =   32/   16  lat =    0  nd =  1935  edge =   4613  area =14268.17  delay =1268.10  lev = 22
 		Delay =  2756.73 ps  ( 10.3 %)
-	Minimal delay for (1),(2),(3) is almost the same.
-	4,5 - 
-		4) seems not working because of (4) is almost the same that (1) but with logical scheme that works with FO-2. 
-		5) And (5) is for different Fan Out factor (and transistors, because we expect even lower lev and delay there)
+
+
+Minimal delay for (1),(2),(3) is almost the same. 
+
+Or, we have **same delay for full adder in our encoding and carry-lookahed adder in OpenLane**.
+
+(4) seems not working because of (4) is almost the same that (1) but with logical scheme that works with FO-2. 
+
+(5) And (5) is for different Fan Out factor (and transistors, because we expect even lower lev and delay there)
+
 ### Testbenches:
 	Smoke test 2+6
 	Carry test (All)
 	10 self-check tests with random numbers
 
 ### TODO:
-
+	
 	Add carry-lookahead adder instead of full adder :)
+	Test other operators.
