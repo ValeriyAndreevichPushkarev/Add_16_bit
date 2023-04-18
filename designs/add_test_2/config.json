@@ -3,6 +3,7 @@
     "VERILOG_FILES": "dir::test_add_2.v",
 	"CLOCK_PORT": "clk",
     "SYNTH_STRATEGY": "DELAY 4",
+	"PL_BASIC_PLACEMENT" : 1,
     "SYNTH_SHARE_RESOURCES": false,
     "FP_IO_VLENGTH": null,
     "FP_IO_HLENGTH": null,
