@@ -1,11 +1,15 @@
 # Presentation
-1) Structure - 
-designs - directory with OpenLane projects (copy content to OpenLane/designs)
-	Run synthesis:
 
-	./flow.tcl -design test_add_2
-	./flow.tcl -design test_add_2 -synth_explore 
-	
+### Structure
+
+
+designs - directory with OpenLane projects (copy content to OpenLane/designs)
+
+	Run synthesis:
+	(
+		./flow.tcl -design test_add_2
+		./flow.tcl -design test_add_2 -synth_explore 
+	)
 	Run testbenches:
 
 	iverilog *.v
@@ -17,10 +21,13 @@ designs - directory with OpenLane projects (copy content to OpenLane/designs)
 	3) add_test_4 - addition based on positional encoding without a converter
 	4) add_test_5 - addition based on positional encoding with converter based on 1 bit functions
 	5) add_test_6 - addition based on positional encoding with the converter based on 4 bit functions
-	
+
+
 results - synthesis results for all types of projects
+
 	With synthesis log, metrics and -synth_explore.
-	Short analysis of the result
+### Short analysis of the result
+
 		1)ABC: netlist                       : i/o =   32/   16  lat =    0  nd =    85  edge =    227  area =1026.19  delay = 7.00  lev = 7
 		Delay =  2138.07 ps  ( 21.2 %)  
 		2)ABC: netlist                       : i/o =   32/   16  lat =    0  nd =    99  edge =    267  area =1117.52  delay = 7.00  lev = 7
@@ -35,7 +42,7 @@ results - synthesis results for all types of projects
 	4,5 - 
 		4) seems not working because of (4) is almost the same that (1) but with logical scheme that works with FO-2. 
 		5) And (5) is for different Fan Out factor (and transistors, because we expect even lower lev and delay there)
-3) Testbenches:
+### Testbenches:
 	Smoke test 2+6
 	Carry test (All)
 	10 self-check tests with random numbers
