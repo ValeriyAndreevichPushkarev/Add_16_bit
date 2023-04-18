@@ -46,3 +46,7 @@ results - synthesis results for all types of projects
 	Smoke test 2+6
 	Carry test (All)
 	10 self-check tests with random numbers
+
+### TODO:
+
+	Add carry-lookahead adder instead of full adder :)
