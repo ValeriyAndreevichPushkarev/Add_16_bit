@@ -55,5 +55,5 @@ Or, we have **same delay for full adder in our encoding and carry-lookahed adder
 
 ### TODO:
 	
-	Add carry-lookahead adder instead of full adder :)
+	Add carry-lookahead adder instead of full adder :) Implement multiplier
 	Test other operators.
