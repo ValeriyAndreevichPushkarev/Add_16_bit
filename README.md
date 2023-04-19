@@ -42,7 +42,7 @@ results - synthesis results for all types of projects
 
 Minimal delay for (1),(2),(3) is almost the same. 
 
-Or, we have **same delay for full adder in our encoding and carry-lookahed adder in OpenLane**.
+Or, we have **same delay for full adder in our encoding and carry-lookahed adder** in OpenLane.
 
 (4) seems not working because of (4) is almost the same that (1) but with logical scheme that works with FO-2. 
 
