@@ -48,6 +48,13 @@ Or, we have **same delay for full adder in our encoding and carry-lookahed adder
 
 (5) And (5) is for different Fan Out factor (and transistors, because we expect even lower lev and delay there)
 
+Result: 
+Even 4 transistors that work in the parallel can reduce logical depth of any operation (down to 4 bit functions with delay of 2 FO-4 inverters).
+If you have branching factor that greater than 4, you can drive that load by 4 more times transistors count.
+
+For FO-4 positional encoding is almost the same as logical elements with FO-4 (and assemblies). But with incresead number of LE.
+One cell (logical assembly from transistors) can represent the same number of states (and can have even less power consumption).
+
 ### Testbenches:
 	Smoke test 2+6
 	Carry test (All)
