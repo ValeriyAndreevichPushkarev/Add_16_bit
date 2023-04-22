@@ -53,13 +53,13 @@ Even 4 transistors that work in the parallel can reduce logical depth of any ope
 
 (down to 4 bit functions with delay of 2 FO-4 inverters).
 
-If you have branching factor that greater than 4, you can drive that load by 4 more times transistors count.
+If you have branching factor that greater than 4, you can drive that load by 16 more times transistors count. (4 more branching factor and 4 more transistors for each logical cell).
 
 For FO-4 positional encoding is almost the same as logical elements with FO-4 (and assemblies). But with incresead number of LE.
 
 One cell (logical assembly from transistors) can represent the same number of states (and can have even less power consumption).
 
-For FO-2 further research is needed. (at least I must have different transistors and libraries that works with FanOut =2 and therefore have less channel => gate capacity and higher speed).
+For FO-2 further research is needed. (at least I must have different transistors and libraries that works with FanOut =2 and therefore have less channel => gate capacity and higher speed). (two times less branching factor and almost two times less gate capacity).
 
 ### Testbenches:
 	Smoke test 2+6
