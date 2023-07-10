@@ -61,6 +61,8 @@ One cell (logical assembly from transistors) can represent the same number of st
 
 For FO-2 further research is needed. (at least I must have different transistors and libraries that works with FanOut =2 and therefore have less channel => gate capacity and higher speed). (two times less branching factor and almost two times less gate capacity).
 
+Check why I dont have FO-16 synthesis in arithmetic cores.
+
 ### Testbenches:
 	Smoke test 2+6
 	Carry test (All)
